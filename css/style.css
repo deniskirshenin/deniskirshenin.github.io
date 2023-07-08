@@ -5981,6 +5981,7 @@ button,
 
   .contacts__form-button {
     margin-top: 21px;
+    padding: 15px 49px;
   }
 
   .contacts__info {
