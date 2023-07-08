@@ -4959,6 +4959,10 @@ button,
     font-size: 74px;
   }
 
+  .advantage-card--special p {
+    margin: 0;
+  }
+
   .promotions__wrapper {
     width: 678px;
     -ms-grid-columns: 1fr 1fr;
@@ -4971,6 +4975,7 @@ button,
     font-size: 42px;
     letter-spacing: 1.26px;
     padding: 0 0 10px 0;
+    grid-column: 1/-1;
   }
 
   .promotion-card {
@@ -4988,6 +4993,7 @@ button,
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
+    width: 100%;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
