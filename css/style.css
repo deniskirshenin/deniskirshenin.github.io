@@ -2718,7 +2718,7 @@ button,
   content: "";
   width: 100%;
   height: 2px;
-  bottom: 0;
+  bottom: 8px;
   background-color: #d10a42;
 }
 
@@ -3178,8 +3178,8 @@ button,
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  height: 32px;
-  width: 20px;
+  min-height: 32px;
+  min-width: 20px;
   color: #103aae;
   background: transparent;
   border: none;
@@ -4658,6 +4658,10 @@ button,
     top: 37px;
   }
 
+  .tabs__control.focus-visible:focus::after {
+    bottom: -13px;
+  }
+
   .tabs__control:not(:last-child) {
     margin-right: 52px;
   }
@@ -5198,6 +5202,12 @@ button,
   }
 }
 
+@media (hover: hover) and (max-width: 1199px) {
+  .tabs__control:hover:not(.focus-visible)::after {
+    bottom: -13px;
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 15px;
@@ -5526,8 +5536,10 @@ button,
   }
 
   .coaches__button {
-    height: 19px;
-    width: 10px;
+    min-height: auto;
+    min-width: auto;
+    max-height: 19px;
+    max-width: 10px;
   }
 
   .coaches__button-prev {
@@ -5672,6 +5684,7 @@ button,
   }
 
   .advantage-card span {
+    font-size: 58px;
     line-height: 85%;
   }
 
@@ -5708,6 +5721,7 @@ button,
   }
 
   .advantage-card--special span {
+    font-size: 74px;
     line-height: 90%;
   }
 
@@ -6146,7 +6160,7 @@ button,
     content: "";
     width: 100%;
     height: 2px;
-    bottom: 0;
+    bottom: 8px;
     background-color: #d10a42;
   }
 
