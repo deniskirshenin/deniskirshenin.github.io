@@ -4674,6 +4674,10 @@ button,
     padding: 0;
   }
 
+  .tabs__element-item-button {
+    padding: 27px 43px;
+  }
+
   .tabs__element-item {
     border: none;
     width: 442px;
@@ -4887,6 +4891,7 @@ button,
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
     grid-row: 4/5;
+    margin: 0;
   }
 
   .advantage-card small {
@@ -4948,6 +4953,10 @@ button,
   .advantage-card--special h3 {
     padding: 0 0 15px 0;
     font-size: 22px;
+  }
+
+  .advantage-card--special span {
+    font-size: 74px;
   }
 
   .promotions__wrapper {
