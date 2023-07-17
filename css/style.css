@@ -5140,6 +5140,22 @@ button,
     padding: 6px 9px 6px 12px;
   }
 
+  .coaches__button-prev.focus-visible:focus {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .coaches__button-prev.focus-visible:active {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .coaches__button-next.focus-visible:focus {
+    padding: 6px 9px 6px 12px;
+  }
+
+  .coaches__button-next.focus-visible:active {
+    padding: 6px 9px 6px 12px;
+  }
+
   .coach-card {
     max-width: 226px;
     min-height: 274px;
@@ -5580,6 +5596,22 @@ button,
     padding: 6px 9px 6px 12px;
   }
 
+  .review__slider-button-prev.focus-visible:focus {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .review__slider-button-prev.focus-visible:active {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .review__slider-button-next.focus-visible:focus {
+    padding: 6px 9px 6px 12px;
+  }
+
+  .review__slider-button-next.focus-visible:active {
+    padding: 6px 9px 6px 12px;
+  }
+
   .contacts__free-training {
     padding: 70px 15px 68px 15px;
   }
@@ -5675,6 +5707,24 @@ button,
     bottom: 0;
   }
 
+  .coaches__button-prev:hover:not(.focus-visible, :disabled) {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .coaches__button-next:hover:not(.focus-visible, :disabled) {
+    padding: 6px 9px 6px 12px;
+  }
+
+  .review__slider-button-prev:hover:not(.focus-visible, :disabled) {
+    padding: 6px 12px 6px 9px;
+  }
+
+  .review__slider-button-next:hover:not(.focus-visible, :disabled) {
+    padding: 6px 9px 6px 12px;
+  }
+}
+
+@media (max-width: 767px) and (hover: hover) {
   .coaches__button-prev:hover:not(.focus-visible, :disabled) {
     padding: 6px 12px 6px 9px;
   }
