@@ -3269,7 +3269,6 @@ button,
   margin: 0;
   padding: 15px 0 25px 0;
   width: 82%;
-  overflow: scroll;
 }
 
 .accordion__button {
@@ -5675,7 +5674,9 @@ button,
     top: 56px;
     bottom: 0;
   }
+}
 
+@media (max-width: 767px) and (hover: hover) {
   .coaches__button-prev:hover:not(.focus-visible, :disabled) {
     padding: 6px 12px 6px 9px;
   }
