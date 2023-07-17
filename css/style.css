@@ -5140,16 +5140,8 @@ button,
     padding: 6px 9px 6px 12px;
   }
 
-  .coaches__button-prev.focus-visible:focus {
-    padding: 6px 12px 6px 9px;
-  }
-
   .coaches__button-prev.focus-visible:active {
     padding: 6px 12px 6px 9px;
-  }
-
-  .coaches__button-next.focus-visible:focus {
-    padding: 6px 9px 6px 12px;
   }
 
   .coaches__button-next.focus-visible:active {
@@ -5596,16 +5588,8 @@ button,
     padding: 6px 9px 6px 12px;
   }
 
-  .review__slider-button-prev.focus-visible:focus {
-    padding: 6px 12px 6px 9px;
-  }
-
   .review__slider-button-prev.focus-visible:active {
     padding: 6px 12px 6px 9px;
-  }
-
-  .review__slider-button-next.focus-visible:focus {
-    padding: 6px 9px 6px 12px;
   }
 
   .review__slider-button-next.focus-visible:active {
@@ -5725,19 +5709,19 @@ button,
 }
 
 @media (max-width: 767px) and (hover: hover) {
-  .coaches__button-prev:hover:not(.focus-visible, :disabled) {
+  .coaches__button-prev:hover:not(.focus-visible) {
     padding: 6px 12px 6px 9px;
   }
 
-  .coaches__button-next:hover:not(.focus-visible, :disabled) {
+  .coaches__button-next:hover:not(.focus-visible) {
     padding: 6px 9px 6px 12px;
   }
 
-  .review__slider-button-prev:hover:not(.focus-visible, :disabled) {
+  .review__slider-button-prev:hover:not(.focus-visible) {
     padding: 6px 12px 6px 9px;
   }
 
-  .review__slider-button-next:hover:not(.focus-visible, :disabled) {
+  .review__slider-button-next:hover:not(.focus-visible) {
     padding: 6px 9px 6px 12px;
   }
 }
